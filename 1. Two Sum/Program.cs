@@ -10,6 +10,9 @@ namespace _1._Two_Sum
         {
             var problem = new int[2] { 3, 3 };
             var result = TwoSum(problem, 6);
+
+            Console.WriteLine(string.Join(',', problem));
+            Console.WriteLine(string.Join(',', result));
         }
 
         static int[] TwoSum(int[] nums, int target)

@@ -10,11 +10,18 @@ namespace _2._Add_Two_Numbers
         {
             Solution sln = new Solution();
 
+            int[] arr1 = new int[] { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 };
+            int[] arr2 = new int[] { 5, 6, 4 };
 
-            ListNode l1 = sln.GenerateListNode(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1);
-            ListNode l2 = sln.GenerateListNode(5, 6, 4);
+            ListNode l1 = sln.GenerateListNode(arr1);
+            ListNode l2 = sln.GenerateListNode(arr2);
 
-            var res = sln.AddTwoNumbers(l1, l2);
+            var res =  sln.AddTwoNumbers(l1, l2);
+            var arr3 = sln.GerArrFromListNode(res);
+
+            Console.WriteLine(string.Join(',', arr1));
+            Console.WriteLine(string.Join(',', arr2));
+            Console.WriteLine(string.Join(',', arr3));
         }
     }
 
@@ -72,6 +79,26 @@ namespace _2._Add_Two_Numbers
             }
 
             return ln;
+        }
+
+        public int [] GerArrFromListNode(ListNode ln)
+        {
+            string s = "";
+            while (true)
+            {
+                s = ln.val + s;
+                if (ln.next is null) break;
+                ln = ln.next;
+            }
+
+            int[] arr = new int[s.Length];
+
+            for(int i = 0; i < s.Length; i++)
+            {
+                arr[i] = int.Parse(s[i].ToString());
+            }
+
+            return arr;
         }
     }
 }
