@@ -10,7 +10,7 @@ namespace _2._Add_Two_Numbers
         {
             Solution sln = new Solution();
 
-            int[] arr1 = new int[] { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 };
+            int[] arr1 = new int[] { 2, 4, 3 };
             int[] arr2 = new int[] { 5, 6, 4 };
 
             ListNode l1 = sln.GenerateListNode(arr1);
@@ -41,29 +41,60 @@ namespace _2._Add_Two_Numbers
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            string s1 = "";
+            int[] arr1 = new int[0];
+            int[] arr2 = new int[0];
+
+            int i1 = 0;
             while (true)
             {
-                s1 = l1.val + s1;
+                Array.Resize(ref arr1, i1 + 1);
+                arr1[i1++] = l1.val;
+
                 if (l1.next is null) break;
                 l1 = l1.next;
             }
 
-            string s2 = "";
+            int i2 = 0;
             while (true)
             {
-                s2 = l2.val + s2;
+                Array.Resize(ref arr2, i2 + 1);
+                arr2[i2++] = l2.val;
+
                 if (l2.next is null) break;
                 l2 = l2.next;
             }
 
-            var res = (System.Numerics.BigInteger.Parse(s1) + System.Numerics.BigInteger.Parse(s2)).ToString();
+            int maxLength = Math.Max(arr1.Length, arr2.Length);
+            Array.Resize(ref arr1, maxLength);
+            Array.Resize(ref arr2, maxLength);
+
+            int[] arr3 = new int[maxLength];
+            int carry = 0;
+
+            for (int i = 0; i < arr3.Length; i++)
+            {
+                var value = arr1[i] + arr2[i] + carry;
+                carry = 0;
+                if (value >= 10)
+                {
+                    carry = 1;
+                    value -= 10;
+                }
+                arr3[i] = value;
+            }
+
+            if(carry is 1)
+            {
+                Array.Resize(ref arr3, maxLength + 1);
+                arr3[maxLength] = 1;
+            }
+
 
             ListNode ln = null;
 
-            for (int i = 0; i < res.Length; i++)
+            for (int i = arr3.Length - 1; i >= 0; i--)
             {
-                ln = new ListNode(int.Parse(res[i].ToString()), ln);
+                ln = new ListNode(arr3[i], ln);
             }
 
             return ln;
