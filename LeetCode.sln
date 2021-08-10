@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{0F32D922-C963-47DE-9BBB-5102053844C5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Two Sum", "1. Two Sum\1. Two Sum.csproj", "{11B859BD-8296-44EF-AC77-F27651037337}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Add Two Numbers", "2. Add Two Numbers\2. Add Two Numbers.csproj", "{909645DE-4CEB-4EC4-B8D0-143476BCD09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Longest Substring Without Repeating Characters", "3. Longest Substring Without Repeating Characters\3. Longest Substring Without Repeating Characters.csproj", "{ECAA7976-C9A4-42E9-9E59-43F84E63248C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Longest Substring Without Repeating Characters", "3. Longest Substring Without Repeating Characters\3. Longest Substring Without Repeating Characters.csproj", "{ECAA7976-C9A4-42E9-9E59-43F84E63248C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{671EF444-4CF2-4EC0-A43A-1D29D0ABD7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{671EF444-4CF2-4EC0-A43A-1D29D0ABD7B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{5B2016D5-D776-439E-8A7D-8C6DF9F14BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. ZigZag Conversion", "6. ZigZag Conversion\6. ZigZag Conversion.csproj", "{204795B0-4FA9-47D9-8FE4-ECFA0380EC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Reverse Integer", "7. Reverse Integer\7. Reverse Integer.csproj", "{E7D2206D-F868-4C18-84D2-6AC052C73139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. String to Integer (atoi)", "8. String to Integer (atoi)\8. String to Integer (atoi).csproj", "{7A7BB24A-F3C1-45F8-AA45-5864CF566659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F32D922-C963-47DE-9BBB-5102053844C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F32D922-C963-47DE-9BBB-5102053844C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F32D922-C963-47DE-9BBB-5102053844C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F32D922-C963-47DE-9BBB-5102053844C5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11B859BD-8296-44EF-AC77-F27651037337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11B859BD-8296-44EF-AC77-F27651037337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B859BD-8296-44EF-AC77-F27651037337}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +41,22 @@ Global
 		{671EF444-4CF2-4EC0-A43A-1D29D0ABD7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{671EF444-4CF2-4EC0-A43A-1D29D0ABD7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{671EF444-4CF2-4EC0-A43A-1D29D0ABD7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2016D5-D776-439E-8A7D-8C6DF9F14BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2016D5-D776-439E-8A7D-8C6DF9F14BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2016D5-D776-439E-8A7D-8C6DF9F14BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2016D5-D776-439E-8A7D-8C6DF9F14BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204795B0-4FA9-47D9-8FE4-ECFA0380EC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204795B0-4FA9-47D9-8FE4-ECFA0380EC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204795B0-4FA9-47D9-8FE4-ECFA0380EC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204795B0-4FA9-47D9-8FE4-ECFA0380EC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D2206D-F868-4C18-84D2-6AC052C73139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D2206D-F868-4C18-84D2-6AC052C73139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D2206D-F868-4C18-84D2-6AC052C73139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D2206D-F868-4C18-84D2-6AC052C73139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7BB24A-F3C1-45F8-AA45-5864CF566659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7BB24A-F3C1-45F8-AA45-5864CF566659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7BB24A-F3C1-45F8-AA45-5864CF566659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7BB24A-F3C1-45F8-AA45-5864CF566659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
