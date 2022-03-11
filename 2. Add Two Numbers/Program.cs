@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
+
 
 namespace _2._Add_Two_Numbers
 {
@@ -132,4 +135,6 @@ namespace _2._Add_Two_Numbers
             return arr;
         }
     }
+
+
 }

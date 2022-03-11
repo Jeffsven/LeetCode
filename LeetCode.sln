@@ -227,7 +227,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21. Merge Two Sorted Lists"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "141. Linked List Cycle", "141. Linked List Cycle\141. Linked List Cycle.csproj", "{7673A8D8-6099-438B-896A-6FA31079D39D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82. Remove Duplicates from Sorted List II", "82. Remove Duplicates from Sorted List II\82. Remove Duplicates from Sorted List II.csproj", "{A208EDF6-13E9-411C-9A95-C6202BB234F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82. Remove Duplicates from Sorted List II", "82. Remove Duplicates from Sorted List II\82. Remove Duplicates from Sorted List II.csproj", "{A208EDF6-13E9-411C-9A95-C6202BB234F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61. Rotate List", "61. Rotate List\61. Rotate List.csproj", "{2630F897-579D-4A91-943D-0B892CB09398}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -619,6 +621,10 @@ Global
 		{A208EDF6-13E9-411C-9A95-C6202BB234F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A208EDF6-13E9-411C-9A95-C6202BB234F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A208EDF6-13E9-411C-9A95-C6202BB234F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2630F897-579D-4A91-943D-0B892CB09398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2630F897-579D-4A91-943D-0B892CB09398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2630F897-579D-4A91-943D-0B892CB09398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2630F897-579D-4A91-943D-0B892CB09398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -720,6 +726,7 @@ Global
 		{81570FF7-5BD1-457A-82AD-37DB3EC6630C} = {0716DFFE-6965-4755-B811-D2D678F71B32}
 		{7673A8D8-6099-438B-896A-6FA31079D39D} = {AABB11C5-F4CB-4F59-86E4-365FB470E0FF}
 		{A208EDF6-13E9-411C-9A95-C6202BB234F2} = {7299B4D6-6951-4A32-9C4C-26098108FA4F}
+		{2630F897-579D-4A91-943D-0B892CB09398} = {0716DFFE-6965-4755-B811-D2D678F71B32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD799675-CC5C-4CE3-9EF4-C64C34B023F6}
