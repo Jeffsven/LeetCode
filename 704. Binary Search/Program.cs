@@ -14,22 +14,22 @@ namespace _704._Binary_Search
             var res = new Solution().Search(input, target);
         }
 
-
         public class Solution
         {
             public int Search(int[] nums, int target)
             {
-                if (!nums.Contains(target)) return -1;
+                return nums.ToList().IndexOf(target);
+                //if (!nums.Contains(target)) return -1;
 
-                int idx = -1;
+                //int idx = -1;
 
-                foreach (var no in nums)
-                {
-                    idx++;
-                    if (target == no) break;
-                }
+                //foreach (var no in nums)
+                //{
+                //    idx++;
+                //    if (target == no) break;
+                //}
 
-                return idx;
+                //return idx;
             }
         }
     }
