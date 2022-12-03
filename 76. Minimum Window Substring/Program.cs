@@ -17,16 +17,6 @@ namespace _76._Minimum_Window_Substring
         }
     }
 
-    public class Solution2
-    {
-        public string MinWindow(string s, string t)
-        {
-
-            int startidx = s.IndexOfAny(t.ToCharArray());
-            s.
-
-        }
-    }
 
     public class Solution
     {

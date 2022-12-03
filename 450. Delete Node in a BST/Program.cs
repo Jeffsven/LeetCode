@@ -25,15 +25,15 @@ namespace _450._Delete_Node_in_a_BST
 
     public class Solution
     {
-        public TreeNode DeleteNode(TreeNode root, int key)
-        {
-            if(root.val == key)
-            {
-                if(root.left!= null)
-                {
-                    root = new TreeNode(root.left.val,root.)
-                }
-            }
-        }
+        //public TreeNode DeleteNode(TreeNode root, int key)
+        //{
+        //    if(root.val == key)
+        //    {
+        //        if(root.left!= null)
+        //        {
+        //            root = new TreeNode(root.left.val,root.)
+        //        }
+        //    }
+        //}
     }
 }

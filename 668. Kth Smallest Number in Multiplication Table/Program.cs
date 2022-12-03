@@ -29,7 +29,7 @@ namespace _668._Kth_Smallest_Number_in_Multiplication_Table
                 {
                     var dq = (c + 1) * (r + 1);
 
-                    ef.Find()
+                    //ef.Find()
                 }
             }
 

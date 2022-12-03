@@ -24,7 +24,7 @@ namespace _53._Maximum_Subarray
 
             for (int i = 0; i < nums.Length; i++)
             {
-                maxvalue = Math.Max()
+                //maxvalue = Math.Max()
             }
 
             return maxvalue;

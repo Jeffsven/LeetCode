@@ -33,7 +33,7 @@ namespace _1008._Construct_Binary_Search_Tree_from_Preorder_Traversal
             foreach (var small in leftlist)
             {
                 var s = maintree.left;
-                left(s)
+                //left(s)
             }
 
             return null;

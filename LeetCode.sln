@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Two Sum", "1. Two Sum\1. Two Sum.csproj", "{11B859BD-8296-44EF-AC77-F27651037337}"
 EndProject
@@ -263,7 +263,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "225. Implement Stack using 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17. Letter Combinations of a Phone Number", "17. Letter Combinations of a Phone Number\17. Letter Combinations of a Phone Number.csproj", "{701562C8-85BE-4B3B-853F-A66E2F69E8E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree", "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree\1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.csproj", "{EC62AB37-00EE-419F-82EF-FA395AF4E502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree", "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree\1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.csproj", "{EC62AB37-00EE-419F-82EF-FA395AF4E502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "474. Ones and Zeroes", "474. Ones and Zeroes\474. Ones and Zeroes.csproj", "{0132872B-85CC-490D-8798-1EEE9B055118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29. Divide Two Integers", "29. Divide Two Integers\29. Divide Two Integers.csproj", "{79677DA0-571C-43B2-A30F-4E8FB3534EBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88. Merge Sorted Array", "88. Merge Sorted Array\88. Merge Sorted Array.csproj", "{FCEC1367-4F45-480B-85D8-776892A5A609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "135. Candy", "135. Candy\135. Candy.csproj", "{0165BF53-9A93-493B-8B22-7FA316F6C9C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "378. Kth Smallest Element in a Sorted Matrix", "378. Kth Smallest Element in a Sorted Matrix\378. Kth Smallest Element in a Sorted Matrix.csproj", "{C705F8D4-CD62-4313-AF46-2203D23AE303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "658. Find K Closest Elements", "658. Find K Closest Elements\658. Find K Closest Elements.csproj", "{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1704. Determine if String Halves Are Alike", "1704. Determine if String Halves Are Alike\1704. Determine if String Halves Are Alike.csproj", "{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -719,6 +733,34 @@ Global
 		{EC62AB37-00EE-419F-82EF-FA395AF4E502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC62AB37-00EE-419F-82EF-FA395AF4E502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC62AB37-00EE-419F-82EF-FA395AF4E502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0132872B-85CC-490D-8798-1EEE9B055118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0132872B-85CC-490D-8798-1EEE9B055118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0132872B-85CC-490D-8798-1EEE9B055118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0132872B-85CC-490D-8798-1EEE9B055118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79677DA0-571C-43B2-A30F-4E8FB3534EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79677DA0-571C-43B2-A30F-4E8FB3534EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79677DA0-571C-43B2-A30F-4E8FB3534EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79677DA0-571C-43B2-A30F-4E8FB3534EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEC1367-4F45-480B-85D8-776892A5A609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEC1367-4F45-480B-85D8-776892A5A609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEC1367-4F45-480B-85D8-776892A5A609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEC1367-4F45-480B-85D8-776892A5A609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0165BF53-9A93-493B-8B22-7FA316F6C9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0165BF53-9A93-493B-8B22-7FA316F6C9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0165BF53-9A93-493B-8B22-7FA316F6C9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0165BF53-9A93-493B-8B22-7FA316F6C9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C705F8D4-CD62-4313-AF46-2203D23AE303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C705F8D4-CD62-4313-AF46-2203D23AE303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C705F8D4-CD62-4313-AF46-2203D23AE303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C705F8D4-CD62-4313-AF46-2203D23AE303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -836,6 +878,13 @@ Global
 		{11C4E5B1-3BBF-41BB-9DC2-D100C35E85E6} = {3B5605D4-5DAB-4635-BBF6-75D1DDFC24C3}
 		{701562C8-85BE-4B3B-853F-A66E2F69E8E0} = {0716DFFE-6965-4755-B811-D2D678F71B32}
 		{EC62AB37-00EE-419F-82EF-FA395AF4E502} = {8CB5F735-C087-423E-B8B2-E3158071BF23}
+		{0132872B-85CC-490D-8798-1EEE9B055118} = {683371DC-B59B-4194-8B85-0FB2B0D88203}
+		{79677DA0-571C-43B2-A30F-4E8FB3534EBD} = {0716DFFE-6965-4755-B811-D2D678F71B32}
+		{FCEC1367-4F45-480B-85D8-776892A5A609} = {7299B4D6-6951-4A32-9C4C-26098108FA4F}
+		{0165BF53-9A93-493B-8B22-7FA316F6C9C1} = {AABB11C5-F4CB-4F59-86E4-365FB470E0FF}
+		{C705F8D4-CD62-4313-AF46-2203D23AE303} = {8E46E156-84F9-491D-B67C-A1B0EC8A05E9}
+		{F1719DD7-B2FF-4E65-8EAA-23395ECA0B75} = {593B7CA2-78A2-41AC-84DA-C7A6F5A51CFC}
+		{5E6BF26E-E9DD-4AFC-BE2F-27F9D266FCF9} = {D445ABCD-0A45-4074-BF16-FC1B31CCBA0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD799675-CC5C-4CE3-9EF4-C64C34B023F6}
