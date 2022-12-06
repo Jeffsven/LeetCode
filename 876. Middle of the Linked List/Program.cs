@@ -14,11 +14,9 @@
         List<ListNode> listNodes = new List< ListNode>();
         public ListNode MiddleNode(ListNode head)
         {
-            while (head != null)
-            {
-                listNodes.Add( head);
-                head = head.next;
-            }
+            do listNodes.Add(head);
+            while ((head = head.next) != null);
+
             return listNodes[listNodes.Count / 2];
         }
     }
