@@ -311,7 +311,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6257. Delete Greatest Value
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6258. Longest Square Streak in an Array", "6258. Longest Square Streak in an Array\6258. Longest Square Streak in an Array.csproj", "{7995DFA2-5D42-45B1-9EA6-09A78A511F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70. Climbing Stairs", "70. Climbing Stairs\70. Climbing Stairs.csproj", "{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70. Climbing Stairs", "70. Climbing Stairs\70. Climbing Stairs.csproj", "{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1143. Longest Common Subsequence", "1143. Longest Common Subsequence\1143. Longest Common Subsequence.csproj", "{777046D4-D918-4627-9EA5-A88117A4FE36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2301-2400", "2301-2400", "{4EE55A67-4A7D-46D1-A815-D764DAC2D4E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2389. Longest Subsequence With Limited Sum", "2389. Longest Subsequence With Limited Sum\2389. Longest Subsequence With Limited Sum.csproj", "{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "290. Word Pattern", "290. Word Pattern\290. Word Pattern.csproj", "{4CD62EE6-A410-4173-ACFA-B360840E1C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -847,6 +855,18 @@ Global
 		{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777046D4-D918-4627-9EA5-A88117A4FE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777046D4-D918-4627-9EA5-A88117A4FE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777046D4-D918-4627-9EA5-A88117A4FE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777046D4-D918-4627-9EA5-A88117A4FE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD62EE6-A410-4173-ACFA-B360840E1C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD62EE6-A410-4173-ACFA-B360840E1C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD62EE6-A410-4173-ACFA-B360840E1C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD62EE6-A410-4173-ACFA-B360840E1C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -986,6 +1006,9 @@ Global
 		{1D4B7BD0-D620-4D54-9EF2-BD84369FC885} = {E78EAAB3-EBFE-4A84-9A52-3BDFFA7E8085}
 		{7995DFA2-5D42-45B1-9EA6-09A78A511F6E} = {E78EAAB3-EBFE-4A84-9A52-3BDFFA7E8085}
 		{C5DA38F8-8C1A-44E9-8C23-A4F642F979A2} = {7299B4D6-6951-4A32-9C4C-26098108FA4F}
+		{777046D4-D918-4627-9EA5-A88117A4FE36} = {868AE0D7-022D-4BF2-9A73-EBF8C28AE45C}
+		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3} = {4EE55A67-4A7D-46D1-A815-D764DAC2D4E1}
+		{4CD62EE6-A410-4173-ACFA-B360840E1C4F} = {3B5605D4-5DAB-4635-BBF6-75D1DDFC24C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD799675-CC5C-4CE3-9EF4-C64C34B023F6}
