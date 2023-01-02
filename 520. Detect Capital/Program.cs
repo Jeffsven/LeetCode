@@ -10,8 +10,7 @@ namespace _520._Detect_Capital
     {
         static void Main(string[] args)
         {
-            var word = "mL";
-            var res = new Solution().DetectCapitalUse(word);
+            Console.WriteLine(new Solution2().DetectCapitalUse("Leetcode"));
         }
     }
 
@@ -38,6 +37,22 @@ namespace _520._Detect_Capital
 
             // all lower or with first upper
             if (lower == word.Length - 1) return true;
+
+            return false;
+        }
+    }
+
+    public class Solution2
+    {
+        public bool DetectCapitalUse(string word)
+        {
+            if (word.Length is 1) return true;
+            if (word == word.ToUpper()) return true;
+            if (word == word.ToLower()) return true;
+
+            var s = $"{char.ToUpper(word[0])}" + word.ToLower().Substring(1);
+
+            if (word == s) return true;
 
             return false;
         }
