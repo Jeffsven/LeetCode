@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string[] sArr = { "", "", "" };
+            string[] sArr = { "cba", "daf", "ghi" };
             Console.WriteLine(new Solution().MinDeletionSize(sArr));
         }
     }
@@ -17,13 +17,17 @@
 
             for (int i = 0; i < strs[0].Length; i++)
             {
-                string s = "";
+                char c = 'a';
                 for (int j = 0; j < strs.Length; j++)
                 {
-                    s += $"{strs[j][i]}";
-                }
-                var sorteds = string.Join("", s.OrderBy(x => x));
-                if (s != sorteds) resCount++;
+                    var cc = strs[j][i];
+                    if (cc < c)
+                    {
+                        resCount++;
+                        break;
+                    }
+                    c = cc;
+            }
             }
             return resCount;
         }
