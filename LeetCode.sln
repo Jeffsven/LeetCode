@@ -321,7 +321,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2389. Longest Subsequence W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "290. Word Pattern", "290. Word Pattern\290. Word Pattern.csproj", "{4CD62EE6-A410-4173-ACFA-B360840E1C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "944. Delete Columns to Make Sorted", "944. Delete Columns to Make Sorted\944. Delete Columns to Make Sorted.csproj", "{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "944. Delete Columns to Make Sorted", "944. Delete Columns to Make Sorted\944. Delete Columns to Make Sorted.csproj", "{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2244. Minimum Rounds to Complete All Tasks", "2244. Minimum Rounds to Complete All Tasks\2244. Minimum Rounds to Complete All Tasks.csproj", "{15B51A96-4E08-4C6C-AB8D-B9203E8838EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "540. Single Element in a Sorted Array", "540. Single Element in a Sorted Array\540. Single Element in a Sorted Array.csproj", "{0E8F9B3B-A864-4202-9C84-45DD098FA7BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1609. Even Odd Tree", "1609. Even Odd Tree\1609. Even Odd Tree.csproj", "{ADCB52EA-2ABF-417A-98E3-4607FA6B6768}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "206. Reverse Linked List", "206. Reverse Linked List\206. Reverse Linked List.csproj", "{66D16D69-6B4F-47BF-B387-8FC4EB168EBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2901-3000", "2901-3000", "{8D001733-7AF0-4D40-A441-D4C3BB1DAEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2958. Length of Longest Subarray With at Most K Frequency", "2958. Length of Longest Subarray With at Most K Frequency\2958. Length of Longest Subarray With at Most K Frequency.csproj", "{C4CBB46D-A496-455F-88D4-E9B2942C0BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -873,6 +885,26 @@ Global
 		{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B51A96-4E08-4C6C-AB8D-B9203E8838EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B51A96-4E08-4C6C-AB8D-B9203E8838EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B51A96-4E08-4C6C-AB8D-B9203E8838EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B51A96-4E08-4C6C-AB8D-B9203E8838EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8F9B3B-A864-4202-9C84-45DD098FA7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8F9B3B-A864-4202-9C84-45DD098FA7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8F9B3B-A864-4202-9C84-45DD098FA7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8F9B3B-A864-4202-9C84-45DD098FA7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCB52EA-2ABF-417A-98E3-4607FA6B6768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCB52EA-2ABF-417A-98E3-4607FA6B6768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCB52EA-2ABF-417A-98E3-4607FA6B6768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCB52EA-2ABF-417A-98E3-4607FA6B6768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D16D69-6B4F-47BF-B387-8FC4EB168EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D16D69-6B4F-47BF-B387-8FC4EB168EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D16D69-6B4F-47BF-B387-8FC4EB168EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D16D69-6B4F-47BF-B387-8FC4EB168EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CBB46D-A496-455F-88D4-E9B2942C0BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CBB46D-A496-455F-88D4-E9B2942C0BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CBB46D-A496-455F-88D4-E9B2942C0BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CBB46D-A496-455F-88D4-E9B2942C0BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1016,6 +1048,11 @@ Global
 		{D4BA1B30-8B84-41EE-BC09-8555AE3CE8F3} = {4EE55A67-4A7D-46D1-A815-D764DAC2D4E1}
 		{4CD62EE6-A410-4173-ACFA-B360840E1C4F} = {3B5605D4-5DAB-4635-BBF6-75D1DDFC24C3}
 		{92B69D40-1D51-4D52-AF4A-EDC21DD5F4DB} = {619CEF17-D24F-4BE0-80B6-CF082B70A0F3}
+		{15B51A96-4E08-4C6C-AB8D-B9203E8838EC} = {992256D8-AE47-4D4F-8745-8530576F8B66}
+		{0E8F9B3B-A864-4202-9C84-45DD098FA7BF} = {AE515356-34DB-4395-8277-D0CB9799A433}
+		{ADCB52EA-2ABF-417A-98E3-4607FA6B6768} = {258BC13A-10F5-4D45-BFC1-DC1C93B851CB}
+		{66D16D69-6B4F-47BF-B387-8FC4EB168EBA} = {3B5605D4-5DAB-4635-BBF6-75D1DDFC24C3}
+		{C4CBB46D-A496-455F-88D4-E9B2942C0BBF} = {8D001733-7AF0-4D40-A441-D4C3BB1DAEA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD799675-CC5C-4CE3-9EF4-C64C34B023F6}

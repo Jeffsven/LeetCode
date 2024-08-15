@@ -17,8 +17,9 @@ namespace _997._Find_the_Town_Judge
     {
         public int FindJudge(int n, int[][] trust)
         {
-            var a = trust.SelectMany(x => x[1].ToString()).ToArray();
-            return 1;
+            var a = trust.Select(x => x[1]).ToArray();
+            var b = a.GroupBy(x => x).Count();
+            return b > 1 ? -1 : n;
         }
     }
 }
